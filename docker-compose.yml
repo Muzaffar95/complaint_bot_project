@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  bot:
+    build: .
+    env_file:
+      - .env
+    command: uvicorn bot.webhook:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./pdfs:/app/pdfs
+    
+  admin:
+    build: .
+    env_file:
+      - .env
+    command: uvicorn web_panel.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./pdfs:/app/pdfs
+
+  init_db:
+    build: .
+    command: python init_db.py
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
+

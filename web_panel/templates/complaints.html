@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Жалобы</title>
+</head>
+<body>
+    <h1>Список жалоб</h1>
+    <form method="get">
+        <input type="text" name="full_name" placeholder="ФИО" value="{{ full_name }}">
+        <input type="date" name="date_from" value="{{ date_from }}">
+        <input type="date" name="date_to" value="{{ date_to }}">
+        <button type="submit">Фильтр</button>
+        <a href="/excel?token={{ token }}">📤 Экспорт в Excel</a>
+    </form>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr><th>ID</th><th>ФИО</th><th>Телефон</th><th>Комментарий</th><th>Дата</th><th>PDF</th></tr>
+        </thead>
+        <tbody>
+            {% for c in complaints %}
+            <tr>
+                <td>{{ c.id }}</td>
+                <td>{{ c.full_name }}</td>
+                <td>{{ c.phone }}</td>
+                <td>{{ c.comment }}</td>
+                <td>
+                  {{ c.created_at.strftime("%Y-%m-%d %H:%M") if c.created_at else "" }}
+                </td>
+                <td>
+                  {% if c.created_at %}
+                    {% set pdf_path = "/pdfs/complaint_" + c.created_at.strftime("%Y%m%d_%H%M%S") + ".pdf" %}
+                    <a href="{{ pdf_path }}" target="_blank">📎 PDF</a>
+                  {% else %}
+                    —
+                  {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
