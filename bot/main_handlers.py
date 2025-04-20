@@ -112,8 +112,18 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 # Найти Telegram ID
+# async def get_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#     await update.message.reply_text(f"🆔 Ваш Telegram ID: {update.effective_user.id}")
+
+# /id — выдать ID пользователя и чата
 async def get_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(f"🆔 Ваш Telegram ID: {update.effective_user.id}")
+    user_id = update.effective_user.id
+    chat_id = update.effective_chat.id
+    await update.message.reply_text(
+        f"👤 Ваш Telegram ID: `{user_id}`\n💬 Chat ID: `{chat_id}`",
+        parse_mode="Markdown"
+    )
+
 
 def setup_handlers(app):
     conv_handler = ConversationHandler(

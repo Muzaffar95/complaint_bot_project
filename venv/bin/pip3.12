@@ -1,4 +1,4 @@
-#!/home/mdm/complaint_bot_project/venv/bin/python3
+#!/Users/gasn/Desktop/complaint_bot_project/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
