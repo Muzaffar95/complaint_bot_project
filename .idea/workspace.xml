@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f9b189c-5444-4065-9188-b323f6da2ae5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/complaint_bot_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/complaint_bot_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/main_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/main_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/pdf_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/pdf_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/init_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250418_113019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250418_120112.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250418_121937.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_074712.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_090142.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_091859.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_093034.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_093556.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_093927.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_094312.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_094819.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_095028.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_100302.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_133527.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_135155.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_141130.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_145245.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_145603.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_145956.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_155323.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_161846.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_162053.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_175855.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_180318.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_190528.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_190908.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_201002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_201110.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_201655.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_202125.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_202227.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_204053.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250419_204219.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250420_085005.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250420_174525.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/complaint_20250420_175214.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2w1zW8w5hQ9qyyAJzjsVx6IGOcz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f9b189c-5444-4065-9188-b323f6da2ae5" name="Changes" comment="" />
+      <created>1745223896968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745223896968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/init_db.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

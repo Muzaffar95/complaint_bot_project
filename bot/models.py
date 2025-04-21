@@ -9,4 +9,7 @@ class Complaint(Base):
     full_name = Column(String)
     phone = Column(String)
     comment = Column(Text)
+
     created_at = Column(DateTime, default=datetime.utcnow)
+
+    complaint_type = Column(String, default="Публичная")
